@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vantage IT Solutions</title>
+
+<meta name="description" content="We provide complete IT solutions.">
+<meta property="og:title" content="Vantage IT Solutions">
+<meta property="og:description" content="We provide complete IT solutions.">
+<meta property="og:url" content="https://www.vantageit.ca/">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif !important;
+}
+
+body{
+    background:#ffffff;
+    color:#222;
+    line-height:1.6;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+header{
+    background:#fff;
+    border-bottom:1px solid #e5e5e5;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.header-inner{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 0;
+}
+
+.logo img{
+    /* Adjusted from 275px to make the logo smaller */
+    max-width:150px;
+    height:auto;
+}
+
+.nav{
+    display:flex;
+    gap:25px;
+    align-items:center;
+}
+
+.nav a{
+    font-weight:bold;
+}
+
+.btn{
+    background:#0057b8;
+    color:white;
+    padding:12px 18px;
+    border-radius:6px;
+    font-weight:bold;
+}
+
+.hero{
+    background:#f4f8fc;
+    padding:100px 20px;
+    text-align:center;
+}
+
+.hero img.cover-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.hero h1{
+    font-size:54px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+    max-width:800px;
+    margin:auto;
+}
+
+.services{
+    padding:80px 0;
+}
+
+.services h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:40px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:30px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card h3{
+    margin-bottom:15px;
+}
+
+.about{
+    background:#f8f8f8;
+    padding:80px 20px;
+    text-align:center;
+}
+
+.about h2{
+    margin-bottom:20px;
+}
+
+.cta{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.cta h2{
+    margin-bottom:20px;
+}
+
+footer{
+    background:#1e1e1e;
+    color:white;
+    padding:60px 20px;
+}
+
+.footer-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:40px;
+}
+
+.footer-title{
+    margin-bottom:15px;
+}
+
+.copyright{
+    text-align:center;
+    margin-top:40px;
+    border-top:1px solid rgba(255,255,255,.15);
+    padding-top:20px;
+}
+
+@media(max-width:768px){
+    .header-inner{
+        flex-direction:column;
+        gap:20px;
+    }
+    .nav{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+    .hero h1{
+        font-size:38px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container header-inner">
+
+<a href="/" class="logo">
+    <img src="https://raw.githubusercontent.com/KittyKatCoding/v/refs/heads/main/vantage%20IT%20Solutions%20logo_converted.avif" alt="Vantage IT">
+</a>
+
+<nav class="nav">
+    <a href="#">Services</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#" class="btn">Apply To Join Our Team!</a>
+</nav>
+
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+    <img src="https://raw.githubusercontent.com/KittyKatCoding/v/refs/heads/main/bunnny_converted.avif" alt="Cover Image" class="cover-image">
+    <h1>Welcome!</h1>
+    <p>
+    We can help you with all of your IT needs.
+    Professional managed IT services, consulting,
+    support, cybersecurity and technology solutions.
+    </p>
+</div>
+</section>
+
+<section class="services">
+<div class="container">
+    <h2>Our Services</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Managed IT Services</h3>
+            <p>Complete technology management and support for your business.</p>
+        </div>
+        <div class="card">
+            <h3>IT Support</h3>
+            <p>Fast and reliable technical support when you need it.</p>
+        </div>
+        <div class="card">
+            <h3>Cybersecurity</h3>
+            <p>Protect your business from threats and security risks.</p>
+        </div>
+        <div class="card">
+            <h3>Cloud Solutions</h3>
+            <p>Modern cloud infrastructure and productivity solutions.</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="about">
+<div class="container">
+    <h2>Why Choose Vantage IT?</h2>
+    <p>"Why should I choose Vantage IT over another company?"</p>
+    <br>
+    <p>
+    We are the best because we are dependable and have good rates.
+    </p>
+</div>
+</section>
+
+<section class="cta">
+<div class="container">
+    <h2>Ready To Improve Your IT?</h2>
+    <p>Contact our team today to discuss your business technology needs.</p>
+    <br>
+    <a href="#" class="btn">Contact Us</a>
+</div>
+</section>
+
+<footer>
+<div class="container">
+    <div class="footer-grid">
+        <div>
+            <h3 class="footer-title">Vantage IT</h3>
+            <img src="https://raw.githubusercontent.com/KittyKatCoding/v/refs/heads/main/vantage%20IT%20Solutions%20logo_converted.avif" alt="Vantage IT" style="max-width:120px; margin-bottom:15px;">
+            <p>
+            Vantage IT<br>
+            123 Fake Street<br>
+            Morden, MB R1A 6D1<br>
+            Canada
+            </p>
+        </div>
+        <div>
+            <h3 class="footer-title">Contact</h3>
+            <p>Phone: 204-555-5555</p>
+        </div>
+    </div>
+    <div class="copyright">
+    © 2026 Vantage IT. All Rights Reserved.
+    </div>
+</div>
+</footer>
+
+<script>
+window.addEventListener("load", function(){
+    document.querySelectorAll(
+        ".loader,.loading,.spinner,.preloader"
+    ).forEach(function(el){
+        el.remove();
+    });
+    document.body.classList.remove("loading");
+    document.body.classList.remove("preloading");
+});
+</script>
+
+</body>
+</html>
