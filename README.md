@@ -1,6 +1,4 @@
-# Vantage IT Solutions
-
-Welcome to the Vantage IT Solutions project repository. This repository contains the official documentation and presentation for this MITT Capstone Project
+![Vantage IT Solutions](https://raw.githubusercontent.com/KittyKatCoding/v/refs/heads/main/vantage%20it%20solutions%20small.png)
 
 ## Project Documents
 
