@@ -1,4 +1,4 @@
-![Vantage IT Solutions](https://raw.githubusercontent.com/KittyKatCoding/v/refs/heads/main/vantage%20it%20solutions%20small.png)
+![Vantage IT Solutions](https://raw.githubusercontent.com/KittyKatCoding/v/refs/heads/main/vantage%20IT%20Solutions%20logo_converted.avif)
 
 ## Project Documents
 
